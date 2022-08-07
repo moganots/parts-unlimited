@@ -1,0 +1,16 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "WebsiteName": {
+            "value": "johannesburg-team08"
+        },
+        "PartsUnlimitedHostingPlanName": {
+            "value": "johannesburg-team08-plan"
+        },
+        "Location": {
+            "value": "west europe"
+        }
+    }
+}
+

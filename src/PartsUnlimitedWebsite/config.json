@@ -1,0 +1,37 @@
+{
+  "AdminRole": {
+    "UserName": "Administrator@test.com",
+    "Password": "YouShouldChangeThisPassword1!"
+  },
+  "CDN": {
+    "images": "/images",
+    "Scripts": {
+      "bootstrap": "/lib/bootstrap/js/bootstrap.js",
+      "jquery": "/lib/jquery/jquery.js",
+      "jquery-ui": "/lib/jquery-ui/jquery-ui.js",
+      "jquery-validation": "/lib/jquery-validation/jquery-validation.js",
+      "jquery-zoom": "/lib/jquery-zoom/jquery.zoom.js",
+      "respond": "/lib/respond/respond.src.js",
+      "site": "/Scripts/AppInsights.js /Scripts/UI-Initialization.js /Scripts/Recommendations.js"
+    },
+    "Styles": {
+      "jquery-ui": "/lib/jquery-ui-smoothness/jquery-ui.css",
+      "bootstrap": "/lib/bootstrap/css/bootstrap.css",
+      "bootstrap-switch": "/lib/bootstrap-switch/bootstrap-switch.css",
+      "site": "/Content/Site.css /Content/Home.css /Content/Account.css /Content/Store.css /Content/ShoppingCart.css"
+    }
+  },
+  "WebsiteOptions": {
+    "ShowRecommendations": "false"
+  },
+  "Keys": {
+    "ApplicationInsights": {
+      "InstrumentationKey": ""
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnectionString": "Server=tcp:genericsqlserver-johannesburg.database.windows.net,1433;Initial Catalog=Johannesburg-Team08SqlDb;Persist Security Info=False;User ID=sqlUser-Johannesburg-Team08;Password=TUssburte56t4u89h8dRE%^te5rdrge4t5egjoijoijS_(RT3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;pooling=false; Connection Lifetime=1;"
+  }
+}
+
+
